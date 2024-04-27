@@ -1,0 +1,14 @@
+.header-main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  height: 80px;
+  /* border: 2px solid red; */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 5%;
+}
+
+.header-main > img {
+  width: 13%;
+}

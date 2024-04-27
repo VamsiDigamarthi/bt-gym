@@ -1,0 +1,48 @@
+.fitness-main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 100%;
+  padding: 0px 5%;
+  margin-bottom: 80px;
+}
+
+.fitness-first-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finess-first-inner-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.5rem;
+}
+
+.finess-first-inner-card > h1 {
+  font-size: 50px;
+}
+
+.finess-first-inner-card > p {
+  font-weight: 100;
+  color: lightslategrey;
+  line-height: 1.8;
+}
+
+.finess-first-inner-card > div {
+  padding: 6px 14px;
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--main-color);
+}
+
+.fitness-first-card > img {
+  width: 35%;
+  border-radius: 25px;
+}
