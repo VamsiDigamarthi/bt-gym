@@ -3,12 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
 :root {
   --main-color: #fea203;
   --hover-color: #f19f12c4;
   --icons-back: #363d428f;
   --card-back: #363d4223;
+  --small-text-color: lightslategrey;
 }
 
 body {
@@ -23,12 +27,16 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  font-family: "Merienda", cursive;
-  font-optical-sizing: auto;
+  /* font-family: "Merienda", cursive;
+  font-optical-sizing: auto; */
   /* font-weight: bold; */
   font-style: normal;
-  margin-bottom: 50px;
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  /* margin-bottom: 50px; */
   position: relative;
+  font-family: "Arial", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 900 */

@@ -19,9 +19,8 @@ const Fitness = () => {
           </h1>
           <p>
             Access Advanced Features Typically Found In Higher-Priced Options.
-            <br />
-            Enjoy Increased Benefits Without The Hefly Price Tag.
-            <br /> Maximizing Tour Investment.
+            Enjoy Increased Benefits Without The Hefly Price Tag. Maximizing
+            Tour Investment.
           </p>
           <div>
             <span>Read More</span>
@@ -53,8 +52,7 @@ const Fitness = () => {
           <p>
             Utilizes Technology And Data To Optimize Workout Routines For
             Efficiency And Effectivess. Offers Real-Time Feedback During
-            Workouts To
-            <br /> Improve Form,Intensity.
+            Workouts To Improve Form,Intensity.
           </p>
           <div>
             <span>Read More</span>

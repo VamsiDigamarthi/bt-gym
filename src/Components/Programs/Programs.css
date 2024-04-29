@@ -5,12 +5,14 @@
   gap: 2rem;
   padding: 0px 5%;
   margin-bottom: 60px;
+  /* background-color: red; */
 }
 
 .programs-main > h1 {
   width: fit-content;
   border-bottom: 2px solid var(--main-color);
   padding: 0px 10px;
+  /* font-size: 5vw; */
 }
 
 .programs-inner-main-card {
@@ -72,7 +74,8 @@
 .programs-inside-single-card > :nth-child(2) > span {
   font-weight: 100;
   /* font-size: 20px; */
-  color: lightslategrey;
+  color: var(--small-text-color);
+  line-height: 1.5;
 }
 .programs-inside-single-card > :nth-child(2) > button {
   background-color: transparent;
@@ -84,4 +87,18 @@
   gap: 1rem;
   color: var(--main-color);
   font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .programs-main {
+    /* margin-top: 15vw; */
+    height: fit-content;
+  }
+  .programs-inner-main-card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .programs-inside-single-card {
+    width: 100%;
+  }
 }

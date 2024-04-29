@@ -6,7 +6,7 @@ import { TbGymnastics } from "react-icons/tb";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Programs = () => {
   return (
-    <div className="programs-main">
+    <div id="programes" className="programs-main">
       <h1>Explore Your Programs</h1>
       <div className="programs-inner-main-card">
         <div className="programs-inside-single-card">

@@ -32,11 +32,17 @@
   align-items: start;
   position: relative;
 }
+.plan-single-card > :nth-child(1) {
+  color: var(--main-color);
+}
 .plan-single-card > h1 {
   font-size: 50px;
 }
 .plan-single-card > span {
-  color: lightslategrey;
+  color: var(--small-text-color);
+}
+.plan-single-card > h2 {
+  font-size: 30px;
 }
 
 .plan-single-card > button {
@@ -50,4 +56,17 @@
   border: 2px solid var(--main-color);
   padding: 6px 20px;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .plan-card {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .plan-single-card {
+    width: 100%;
+  }
+  .plan-main > h1 {
+    font-size: 8vw;
+  }
 }

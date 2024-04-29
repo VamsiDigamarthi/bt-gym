@@ -7,6 +7,7 @@
   height: 760px;
   /* border: 2px solid red; */
   position: relative;
+  /* background-color: red; */
 }
 
 .circle-image-card {
@@ -40,7 +41,8 @@
 }
 
 .circl-first-card-inside-span {
-  color: lightslategrey;
+  color: var(--small-text-color);
+  line-height: 1.5;
 }
 .circle-first-card-inside-number-card {
   position: absolute;
@@ -191,4 +193,58 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.circle-mobile-card {
+  display: none;
+}
+@media (max-width: 768px) {
+  .circle-main {
+    flex-direction: column;
+    gap: 3rem;
+    height: fit-content;
+  }
+  .circle-image-card {
+    display: none;
+  }
+  .circle-first-card {
+    display: none;
+  }
+  .circle-second-card {
+    display: none;
+  }
+  .circle-third-card {
+    display: none;
+  }
+  .circle-fouth-card {
+    display: none;
+  }
+  .circle-five-card {
+    display: none;
+  }
+  .circle-six-card {
+    display: none;
+  }
+  .circle-mobile-card {
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.521);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+    position: relative;
+  }
+  .circle-mobile-card-inside-number-card {
+    position: absolute;
+    right: 7%;
+    top: -3%;
+    background-color: var(--card-back);
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 7px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

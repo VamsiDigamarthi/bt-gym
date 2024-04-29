@@ -25,14 +25,26 @@ const Sidebar = () => {
           </div>
           <div className="sidebar-z-top-link-card">
             <img src="images/bee fit logo.png" alt="" />
-            <h3>Home</h3>
-            <h3>Program</h3>
-            <h3>Pricing</h3>
-            <h3>Contact Us</h3>
+            <h3 onClick={() => setOpen(false)}>
+              <a href="#home">Home</a>
+            </h3>
+            <h3 onClick={() => setOpen(false)}>
+              <a href="#programes">Program</a>
+            </h3>
+            <h3 onClick={() => setOpen(false)}>
+              <a href="#plans">Pricing</a>
+            </h3>
+            <h3 onClick={() => setOpen(false)}>
+              <a href="#contact">Contact Us</a>
+            </h3>
           </div>
         </motion.div>
       ) : (
-        <GiHamburgerMenu onClick={() => setOpen(true)} size={30} />
+        <GiHamburgerMenu
+          color="var(--main-color)"
+          onClick={() => setOpen(true)}
+          size={25}
+        />
       )}
     </div>
   );

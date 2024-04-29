@@ -1,16 +1,17 @@
 .sidebar-main {
   /* width: 4%; */
-  height: 100vh;
+  height: calc(100vh - 100px);
   position: fixed;
-  top: 0;
+  top: 100px;
   left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  background-color: var(--card-back);
-  background-color: rgba(0, 0, 0, 0.521);
+  /* background-color: var(--card-back); */
+  /* background-color: rgba(0, 0, 0, 0.521); */
+  /* background-color: white; */
 }
 
 .sidebar-second-main {
@@ -28,6 +29,8 @@
   align-items: start;
   background-color: #0e0c17;
   /* background-color: yellow; */
+  background-color: rgb(196, 196, 196);
+  color: black;
 }
 
 .sidebar-z-top-icons-card {
@@ -49,7 +52,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: #fff;
+  color: black;
   z-index: 10000000;
 }
 
@@ -60,8 +63,18 @@
 .sidebar-z-top-link-card > h3 {
   font-size: 24px;
 }
+.sidebar-z-top-link-card > h3 > a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .sidebar-z-top-link-card > h3:hover {
   color: var(--main-color);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sidebar-z-top-link-card {
+    width: 60%;
+  }
 }

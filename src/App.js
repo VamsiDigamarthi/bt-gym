@@ -1,5 +1,6 @@
 import "./App.css";
 import Circle from "./Components/Circle/Circle";
+import Contact from "./Components/Contact/Contact";
 import Dynamic from "./Components/Dynamic/Dynamic";
 import Fitness from "./Components/Fitness/Fitness";
 import Header from "./Components/Header/Header";
@@ -21,6 +22,7 @@ function App() {
       <Circle />
       <Plan />
       <Sidebar />
+      <Contact />
     </div>
   );
 }

@@ -7,6 +7,7 @@
   padding: 0px 5%;
   height: calc(100vh - 100px);
   margin-bottom: 60px;
+  /* background-color: red; */
 }
 
 .hero-first {
@@ -65,8 +66,9 @@
 }
 
 .hero-first > p {
-  font-weight: bold;
+  /* font-weight: bold; */
   line-height: 1.7;
+  color: var(--small-text-color);
 }
 
 .hero-first > button {
@@ -87,6 +89,7 @@
   gap: 1rem;
   align-items: center;
   position: relative;
+  /* background-color: blue; */
 }
 
 .hero-second > img {
@@ -130,4 +133,20 @@
   bottom: 20px;
   left: 30px;
   color: var(--main-color);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    /* gap: 3rem;
+    margin-bottom: 100px; */
+    height: fit-content;
+  }
+  .hero-first {
+    width: 100%;
+  }
+  .hero-second {
+    display: none;
+    width: 100%;
+  }
 }

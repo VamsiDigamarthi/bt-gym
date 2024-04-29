@@ -28,7 +28,7 @@
 
 .finess-first-inner-card > p {
   font-weight: 100;
-  color: lightslategrey;
+  color: var(--small-text-color);
   line-height: 1.8;
 }
 
@@ -45,4 +45,23 @@
 .fitness-first-card > img {
   width: 35%;
   border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .fitness-main {
+    margin-top: 20px;
+  }
+  .fitness-first-card {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .finess-first-inner-card {
+    width: 100%;
+  }
+  .finess-first-inner-card > h1 {
+    font-size: 6vw;
+  }
+  .fitness-first-card > img {
+    width: 100%;
+  }
 }

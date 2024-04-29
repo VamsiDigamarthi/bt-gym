@@ -5,8 +5,9 @@
   width: 100%;
   padding: 0px 5%;
   /* border: 2px solid red; */
-  height: 600px;
+  height: 660px;
   margin-bottom: 60px;
+  /* background-color: yellow; */
 }
 
 .dynamic-main > h1 {
@@ -22,8 +23,15 @@
   position: relative;
   /* border: 2px solid red; */
 }
-.dynamic-inner-card > img {
+
+.dymani-image-widthpositional-card-main-container {
   width: 40%;
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.dymani-image-widthpositional-card-main-container > img {
+  width: 100%;
   border-radius: 30px;
 }
 
@@ -56,7 +64,7 @@
 
 .program-first-posotional-card {
   position: absolute;
-  width: 30%;
+  width: 90%;
   height: 180px;
   /* border: 2px solid red; */
   bottom: -40%;
@@ -84,15 +92,16 @@
 }
 
 .program-first-posotional-card > span {
-  font-weight: 100;
+  /* font-weight: 100; */
   /* font-size: 20px; */
-  color: lightslategrey;
+  color: var(--small-text-color);
+  line-height: 2;
 }
 
 .program-first-posoional-card-grap-image {
   position: absolute;
-  bottom: -5%;
-  left: 25%;
+  bottom: 6%;
+  right: 10%;
 }
 
 .program-first-posoional-card-grap-image > img {
@@ -102,7 +111,7 @@
 
 .program-second-posotional-card {
   position: absolute;
-  width: 30%;
+  width: 90%;
   height: 180px;
   /* border: 2px solid red; */
   bottom: -40%;
@@ -131,17 +140,49 @@
 .program-second-posotional-card > span {
   font-weight: 100;
   /* font-size: 20px; */
-  color: lightslategrey;
+  color: var(--small-text-color);
+  line-height: 1.5;
 }
 
 .program-second-posoional-card-grap-image {
   position: absolute;
 
-  bottom: -5%;
+  bottom: 5%;
   right: 2.5%;
 }
 
 .program-second-posoional-card-grap-image > img {
   width: 100px;
   border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .dynamic-main {
+    height: fit-content;
+  }
+  .dynamic-main > h1 {
+    font-size: 6vw;
+  }
+  .dynamic-inner-card {
+    flex-direction: column;
+    gap: 10rem;
+  }
+  .dymani-image-widthpositional-card-main-container {
+    width: 100%;
+  }
+  .dymani-image-widthpositional-card-main-container > img {
+    width: 100%;
+  }
+  .dymani-inner-to-inner-card {
+    display: none;
+  }
+  .program-first-posotional-card {
+    width: 90%;
+  }
+  .program-first-posoional-card-grap-image {
+    display: none;
+  }
+  .program-second-posoional-card-grap-image {
+    display: none;
+  }
 }

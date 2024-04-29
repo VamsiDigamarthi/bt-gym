@@ -9,7 +9,7 @@ const Hero = () => {
   const transition = { type: "spring", duration: 3 };
   const mobile = window.innerWidth <= 768 ? true : false;
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <div className="hero-first">
         <div className="the-best-add">
           <motion.div

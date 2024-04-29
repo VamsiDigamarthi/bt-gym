@@ -7,6 +7,8 @@
   justify-content: flex-end;
   align-items: center;
   padding: 0px 5%;
+  /* background-color: #3c3461a6; */
+  background-color: #6d6591b9;
 }
 
 .header-main > img {
