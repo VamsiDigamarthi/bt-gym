@@ -1,0 +1,22 @@
+.qa-main {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+
+  padding: 0px 5%;
+
+  /* margin-bottom: 60px; */
+  gap: 1rem;
+}
+.qa-main > h3 {
+  line-height: 1.4;
+}
+
+.qa-main > p {
+  text-align: justify; /* Align text justified */
+  word-wrap: break-word;
+  line-height: 2;
+  margin-bottom: 40px;
+  font-size: 18px;
+}

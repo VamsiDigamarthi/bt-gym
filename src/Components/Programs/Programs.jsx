@@ -12,7 +12,7 @@ const Programs = () => {
         <div className="programs-inside-single-card">
           <div className="programs-inside-single-card-first-item">
             <span>
-              <IoMdMan size={20} />
+              <IoMdMan size={30} />
             </span>
             <span>Cardio Strength</span>
           </div>
@@ -33,7 +33,7 @@ const Programs = () => {
         <div className="programs-inside-single-card">
           <div className="programs-inside-single-card-first-item">
             <span>
-              <CgGym size={20} />
+              <CgGym size={30} />
             </span>
             <span>Muscle Gain</span>
           </div>
@@ -53,7 +53,7 @@ const Programs = () => {
         <div className="programs-inside-single-card">
           <div className="programs-inside-single-card-first-item">
             <span>
-              <TbGymnastics size={20} />
+              <TbGymnastics size={30} />
             </span>
             <span>Fat Lose</span>
           </div>

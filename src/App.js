@@ -7,22 +7,52 @@ import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Plan from "./Components/Plan/Plan";
 import Programs from "./Components/Programs/Programs";
-import Sidebar from "./Components/Sidebar/Sidebar";
+// import Sidebar from "./Components/Sidebar/Sidebar";
 import Trainer from "./Components/Trainer/Trainer";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import About from "./Components/about/About";
+import NotFound from "./Components/notfound/NotFound";
+import QA from "./Components/qa/QA";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Programs />
-      <Dynamic />
-      <Fitness />
-      <Trainer />
-      <Circle />
-      <Plan />
-      <Sidebar />
-      <Contact />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route
+            path="/about"
+            element={
+              <>
+                <About />
+                <QA />
+              </>
+            }
+          />
+          <Route
+            path="/programs"
+            element={
+              <>
+                <Programs />
+                <Dynamic />
+                <Fitness />
+              </>
+            }
+          />
+          <Route path="/pricing" element={<Plan />} />
+          <Route
+            path="/trainers"
+            element={
+              <>
+                <Trainer />
+                <Circle />
+              </>
+            }
+          />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Contact />
+      </Router>
     </div>
   );
 }

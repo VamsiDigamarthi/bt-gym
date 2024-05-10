@@ -37,9 +37,9 @@ const Plan = () => {
           <h2>&nbsp;&nbsp;16999 /-</h2>
           <h3>2. Personal Training</h3>
           <span>&nbsp;&nbsp;2.1 Alternate Days</span>
-          <h2>&nbsp;&nbsp;20000 /-</h2>
+          <h2>&nbsp;&nbsp;60000 /-</h2>
           <span>&nbsp;&nbsp;2.2 Regular Days</span>
-          <h2>&nbsp;&nbsp;35000 /-</h2>
+          <h2>&nbsp;&nbsp;95000 /-</h2>
         </div>
       </div>
     </div>

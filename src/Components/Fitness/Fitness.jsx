@@ -29,13 +29,13 @@ const Fitness = () => {
         </div>
         <img
           src="https://img.freepik.com/free-photo/achievement-muscle-gym-man-active_1139-707.jpg"
-          alt=""
+          alt="asdcv"
         />
       </div>
       <div className="fitness-first-card">
         <img
           src="https://st2.depositphotos.com/1518767/8186/i/450/depositphotos_81866598-stock-photo-muscular-couple-doing-abdominal-ball.jpg"
-          alt=""
+          alt="asdc"
         />
         <div className="finess-first-inner-card">
           <h1>

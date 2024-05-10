@@ -32,24 +32,25 @@ const Hero = () => {
           and <span>fit</span> with us
         </h1>
         <p>
-          Being physically active can improve your brain health, help manage
-          weight. reduce the risk of disease. strengthen bones and muscles, and
-          improve your ability to do everyday activities. Adults who sit less
-          and do any amount of moderate-to-vigorous physical activity gain some
-          health benegit.
+          Being fit is essential for overall health and well-being. It helps
+          maintain a healthy weight, reduces the risk of chronic diseases like
+          heart disease and diabetes, improves mood and mental health, boosts
+          energy levels, and enhances quality of life. Plus, staying fit can
+          increase longevity and allow you to participate in activities you
+          enjoy for longer.
         </p>
         <button>Get Started</button>
       </div>
       <div className="hero-second">
-        <img src="images/pexels-scottwebb-136405.jpg" alt="" />
+        <img src="images/pexels-scottwebb-136405.jpg" alt="wsedf" />
         <div>
           {/* <img src="images/pexels-scottwebb-136405.jpg" alt="" /> */}
 
           <img
             src="https://static.vecteezy.com/system/resources/thumbnails/029/640/313/small/a-gym-girl-doing-workout-in-gym-generative-ai-photo.jpg"
-            alt=""
+            alt="asdcv"
           />
-          <img src="images/pexels-anush-1229356.jpg" alt="" />
+          <img src="images/pexels-anush-1229356.jpg" alt="fdsa" />
         </div>
         <FaRegStarHalfStroke size={30} className="hero-right-first-icon" />
         <CgGym size={30} className="hero-right-second-icon" />

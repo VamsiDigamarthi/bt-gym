@@ -88,6 +88,10 @@ textarea {
   color: var(--main-color);
 }
 
+.contact-icons-card > a {
+  color: var(--main-color);
+}
+
 @media (max-width: 768px) {
   .contact-main > h1 {
     font-size: 7vw;

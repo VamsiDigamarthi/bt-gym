@@ -11,7 +11,9 @@ html {
   --main-color: #fea203;
   --hover-color: #f19f12c4;
   --icons-back: #363d428f;
-  --card-back: #363d4223;
+  /* --card-back: #363d4223; */
+  --card-back: #363d429d;
+
   --small-text-color: lightslategrey;
 }
 

@@ -1,0 +1,16 @@
+.about-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+  gap: 1rem;
+  padding: 0px 5%;
+  margin-bottom: 60px;
+}
+
+.about-main > p {
+  line-height: 2;
+  text-align: justify; /* Align text justified */
+  word-wrap: break-word;
+  font-size: 18px;
+}

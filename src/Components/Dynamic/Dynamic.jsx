@@ -14,7 +14,7 @@ const Dynamic = () => {
         <div className="dymani-image-widthpositional-card-main-container">
           <img
             src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2023-08/shy-girl-workout-tiktok-mc-230828-02-ab104e.jpg"
-            alt=""
+            alt="asdcv"
           />
           <div className="program-first-posotional-card">
             <div>
@@ -31,7 +31,7 @@ const Dynamic = () => {
           <div className="program-first-posoional-card-grap-image">
             <img
               src="https://media.istockphoto.com/id/1402430797/photo/business-3d-tablet-virtual-growth-arrow-financial-graph-on-digital-technology-strategy.jpg?s=612x612&w=0&k=20&c=OKYWpTE-G2OYQu7wKjfEiUZQWVnf7XVPuJNlj7X7tAI="
-              alt=""
+              alt="sdcv"
             />
           </div>
         </div>
@@ -54,7 +54,7 @@ const Dynamic = () => {
         <div className="dymani-image-widthpositional-card-main-container">
           <img
             src="https://images.pexels.com/photos/28054/pexels-photo-28054.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
+            alt="sdcv"
           />
           <div className="program-second-posotional-card">
             <div>
@@ -69,7 +69,7 @@ const Dynamic = () => {
             </span>
           </div>
           <div className="program-second-posoional-card-grap-image">
-            <img src="images/images-removebg-preview.png" alt="" />
+            <img src="images/images-removebg-preview.png" alt="asdf" />
           </div>
         </div>
       </div>
